@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: default;
+}
+body {
+  background-color: #370839;
+    background-image: linear-gradient(90deg, #48053f 45%, #04cdf9 100%);
+}
+.h {
+  width: 1329px;
+  height: 95px;
+}
+.header {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Rubik Vinyl", cursive;
+  margin-top: 15px;
+  color: white;
+}
+
+.main {
+  
+  border-radius: 5px;
+  width: 1049px;
+  height: 259px;
+  margin: 25px auto;
+  padding: 15px;
+  outline: rgb(255, 0, 0);
+  background-color: #370839;
+  background-image: linear-gradient(90deg, #674e70 35%, #04cdf9 100%);
+  box-shadow: 5px 10px rgba(50, 50, 93, 0.25);
+}
+
+.main__img {
+  width: 305px;
+  height: 225px;
+  display: inline;
+  float: left;
+  
+}
+
+.main__img:hover {
+  transform:scale(1.1);
+transform-origin: right;
+ cursor: pointer;
+}
+
+.main__baslik {
+  font-size: 32px;
+  font-weight: 700;
+  color: #f4a460;
+}
+
+.main__par{
+    color: white;
+    text-align: justify;
+    text-indent: 16px;
+    font-weight: 300;
+    font-size: 16px
+}
+
+.main__but{
+   font-size: 13px;
+    background-color: #ff7f50;
+    color: white;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-decoration:none;
+    float: right;
+   }
+
+   .main__but:hover{
+    cursor: pointer;
+    font-weight: 700;}
